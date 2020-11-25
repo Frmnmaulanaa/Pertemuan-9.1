@@ -43,7 +43,7 @@ print ("mengabungkan list A dan B : " ,dataa + datab)
 ![gambar output](gambar/SS1.png)
 
 ## TugasPraktikum 4
-![gambar output](gambar/soalpraktikum4.PNG)
+![gambar output](gambar/soalpraktikum4.png)
 
 ## Hasil Source Code
 ```python
