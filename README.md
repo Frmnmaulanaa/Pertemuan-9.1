@@ -13,47 +13,41 @@
 ![gambar output](gambar/latihan4.png)
 
 ## Hasil Source Code
+
 ```python
-#Akses pada list
-nilai = [2,6,8,10,12]
-print ("-------------------------------")
-print ("Nilai :",nilai)
-print ("Nilai ke 3 :",nilai [2])
-print ("Nilai ke 2 - ke 4 :", nilai [1:4])
-print ("Nilai terakhir :", nilai [-1])
-print ("------------------------------")
+
+data = [11,12,13,14,15]
+print ("menampilkan semua list: ", data[0:6])
+print ("element ke 3 : ", data[2])
+print ("element ke 2 sampai ke 4 : ", data[1:4])
 #mengubah element list
-A = [2,6,8,10,12]
-print ("--------------------------")
-print ("Nilai :", A)
-A [3] = 99
-print ("Ubah nilai ke 4 :", A)
-A [3:4] = [24, 25]
-print ("Ubah nilai ke 4 - terakhir :", A)
-print ("--------------------------")
+data[3] = 20
+print("mengubah element 4 : ", data)
+data[4:5] = 90,50
+print("mengubah element4 dan terakhir : ", data)
+print("══════════════════════════════════════")
 #menambahkan element
-list = nilai [0:2] + A
-print ("list 2:", list)
-list = nilai [0:2] + A
-list.extend(["aku","kamu","kita"])
-print ("list 2 + string :", list)
-list = nilai [0:2] + A
-list.extend([5,4,3])
-print ("list 2 + nilai :", list)
-gabung = nilai + list
-list.extend(list)
-print ("gabungan :", gabung)
+dataa = [11,22,14]
+datab = [24,12,52]
+print("list a : ", dataa)
+print("list b : ", datab)
+datab.append(99)
+print ("menambahkan list B nilai string : ", datab)
+datab.extend([60,70,80])
+print ("menambahkan list B dengan 3 nilai", datab)
+print ("mengabungkan list A dan B : " ,dataa + datab)
 #terimkasih
-'''
-###Hasil Output 
+
+```
+## Hasil Output 
 ![gambar output](gambar/SS1.png)
 
-###TugasPraktikum 4
-![gambar output](gambar/soalpraktikum4.png)
+## TugasPraktikum 4
+![gambar output](gambar/soalpraktikum4.PNG)
 
 ## Hasil Source Code
 ```python
-#Membuat variable perulangan dengan eaa.....
+#Membuat variable perulangan
 data = []
 while True : 
 	nama	= input	("Nama 		:")
