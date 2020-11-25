@@ -44,11 +44,11 @@ gabung = nilai + list
 list.extend(list)
 print ("gabungan :", gabung)
 #terimkasih
-''
-Hasil Output 
+'''
+###Hasil Output 
 ![gambar output](gambar/SS1.png)
 
-TugasPraktikum 4
+###TugasPraktikum 4
 ![gambar output](gambar/soalpraktikum4.png)
 
 ## Hasil Source Code
